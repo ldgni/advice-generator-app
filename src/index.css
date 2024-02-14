@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* FONTS */
+
+@font-face {
+  font-family: "Manrope";
+  src: url("./assets/fonts/Manrope-ExtraBold.ttf");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* DIVIDER */
+
+@media (min-width: 1024px) {
+  .divider {
+    content: url("./assets/images/pattern-divider-desktop.svg");
+  }
+}
